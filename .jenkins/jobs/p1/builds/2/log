@@ -1,0 +1,23 @@
+Started by user [8mha:////4LKQUQJewqrCvx+7NcvLr9mjaYmye4ud1DIGh2QWcn2JAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9osRcAI22c4i+AAAA[0mram
+Running as SYSTEM
+Building in workspace /home/ec2-user/.jenkins/workspace/p1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/.jenkins/workspace/p1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/BRK1077/batch5-repo1.git # timeout=10
+Fetching upstream changes from https://github.com/BRK1077/batch5-repo1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/BRK1077/batch5-repo1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 9efd174c40896677e477083d00978f327b021f16 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9efd174c40896677e477083d00978f327b021f16 # timeout=10
+Commit message: "Add files via upload"
+ > git rev-list --no-walk 9efd174c40896677e477083d00978f327b021f16 # timeout=10
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /home/ec2-user/.jenkins/workspace/p1/sample.war to container Tomcat 8.x Remote with context sample
+  [/home/ec2-user/.jenkins/workspace/p1/sample.war] is not deployed. Doing a fresh deployment.
+  Deploying [/home/ec2-user/.jenkins/workspace/p1/sample.war]
+Finished: SUCCESS
